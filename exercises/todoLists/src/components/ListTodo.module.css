@@ -1,0 +1,23 @@
+.main {
+  width: 800px;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  margin-bottom: 0.857rem;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.formTodo > input {
+  color: var(--gray-100);
+  width: 736px;
+
+}

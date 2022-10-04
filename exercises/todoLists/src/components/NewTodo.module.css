@@ -1,0 +1,51 @@
+.container {
+  max-width: 800px;
+  width: 736px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  top: -3rem;
+  position: relative
+}
+
+.inputTodo {
+ 
+  padding: 1.25rem;
+  display: flex;
+}
+
+.inputTodo > input {
+  background: var(--gray-500);
+   width: 638px;
+   border: 1px solid var(--gray-700);
+   border-radius: 8px;
+   margin-right: 1rem;
+   line-height: 3rem;
+   padding: 0 0.857rem 0 0.857rem;
+   color: var(--gray-100)
+
+}
+
+.button {
+  border-radius: 8px;
+  background: var(--blue-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  color: var(--gray-100);
+  border: none;
+
+  font-size: 0.857rem;
+}
+
+.button > span {
+  margin-left: 0.257rem ;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+   opacity: 0.8;
+}
